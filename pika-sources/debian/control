@@ -1,0 +1,16 @@
+Source: pika-sources
+Section: misc
+Priority: optional
+Maintainer: Ward Nakchbandi <hotrod.master@hotmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://github.com/PikaOS-Linux/
+
+Package: pika-sources
+Section: misc
+Architecture: all
+Depends: ${misc:Depends}
+Description: APT Source files and keyrings for the repositories we use/provide.
+
+
+
