@@ -1,7 +1,7 @@
-X-Repolib-Name: PikaOS Multimedia Sources
+X-Repolib-Name: PikaOS APT Sources
 Enabled: yes
 Types: deb deb-src
-URIs: https://ppa.launchpadcontent.net/pikaos/multimedia/ubuntu
+URIs: https://ppa.pika-os.com/
 Suites: kinetic
 Components: main
 Signed-By: /usr/share/keyrings/pika-keyring.gpg.key

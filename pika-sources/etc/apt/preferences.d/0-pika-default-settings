@@ -1,11 +1,11 @@
-# Base OS Priority Override
+# PikaOS Launchpad Priority Override
 Package: *
-Pin: release o=LP-PPA-pikaos-baseos
+Pin: release o=LP-PPA-pikaos-pika
 Pin-Priority: 1000
 
-# Multimedia Priority Override
+# PikaOS APT Priority Override
 Package: *
-Pin: release o=LP-PPA-pikaos-multimedia
+Pin: release o=ppa.pika-os.com
 Pin-Priority: 1000
 
 # Mesa Priority Override
