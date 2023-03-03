@@ -18,6 +18,11 @@ Package: *
 Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 2001
 
+# Kubuntu Priority Override
+Package: *
+Pin: release o=LP-PPA-kubuntu-ppa-backports
+Pin-Priority: 1000
+
 # Enable Feature Updates
 Package: *
 Pin: release a=$(lsb_release -cs)-backports
