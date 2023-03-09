@@ -4,3 +4,9 @@ set -e
 
 systemctl enable --now steam-repos-fix.service || echo "steam-repos-fix service could not be enabled"
 
+mkdir -p /usr/share || echo "Path already exists!"
+mkdir -p /usr/share/distro-info/  || echo "Path already exists!"
+ln -sf /usr/share/distro-info/ubuntu.csv  /usr/share/distro-info/pika.csv  || echo "Link already exists!"
+mkdir -p /usr/share/python-apt/templates/ || echo "Path already exists!"
+ln -sf /usr/share/python-apt/templates/Ubuntu.info  /usr/share/python-apt/templates/Pika.info  || echo "Link already exists!"
+ln -sf /usr/share/python-apt/templates/Ubuntu.mirrors  /usr/share/python-apt/templates/Pika.mirrors  || echo "Link already exists!"

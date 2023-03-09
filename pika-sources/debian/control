@@ -9,6 +9,7 @@ Homepage: https://github.com/PikaOS-Linux/
 Package: pika-sources
 Section: misc
 Architecture: all
+Pre-Depends: python-apt-common, distro-info-data
 Depends: ${misc:Depends}
 Description: APT Source files and keyrings for the repositories we use/provide.
 
