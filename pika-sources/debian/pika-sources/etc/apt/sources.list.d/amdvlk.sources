@@ -4,4 +4,4 @@ Types: deb
 URIs: https://repo.radeon.com/amdvlk/apt/debian
 Suites: bionic
 Components: main
-Signed-By: /usr/share/keyrings/amdvlk.gpg.key
+Signed-By: /etc/apt/keyrings/amdvlk.gpg.key

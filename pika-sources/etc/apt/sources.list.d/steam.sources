@@ -5,4 +5,4 @@ URIs: http://repo.steampowered.com/steam
 Suites: stable
 Components: steam
 Architectures: amd64 i386
-Signed-By: /usr/share/keyrings/steam_pika.gpg.key
+Signed-By: /etc/apt/keyrings/steam_pika.gpg.key

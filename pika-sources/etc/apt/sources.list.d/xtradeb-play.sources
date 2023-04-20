@@ -2,6 +2,6 @@ X-Repolib-Name: XtraDeb Play PPA
 Enabled: yes
 Types: deb deb-src
 URIs: https://ppa.launchpadcontent.net/xtradeb/play/ubuntu
-Suites: kinetic
+Suites: lunar
 Components: main
-Signed-By: /usr/share/keyrings/xtradeb-ubuntu-play.gpg.key
+Signed-By: /etc/apt/keyrings/xtradeb-ubuntu-play.gpg.key

@@ -1,0 +1,7 @@
+X-Repolib-Name: Pipewire Upstream Sources
+Enabled: yes
+Types: deb deb-src
+URIs: https://ppa.launchpadcontent.net/pipewire-debian/pipewire-upstream/ubuntu
+Suites: devel
+Components: main
+Signed-By: /etc/apt/keyrings/pipewire-debian.gpg

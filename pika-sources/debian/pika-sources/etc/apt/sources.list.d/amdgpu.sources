@@ -4,4 +4,4 @@ Types: deb deb-src
 URIs: https://repo.radeon.com/amdgpu/5.4.1/ubuntu
 Suites: jammy
 Components: main proprietary
-Signed-By: /usr/share/keyrings/rocm-keyring.gpg.key
+Signed-By: /etc/apt/keyrings/rocm-keyring.gpg.key

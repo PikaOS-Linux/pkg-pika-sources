@@ -2,6 +2,6 @@ X-Repolib-Name: PikaOS Multimedia Sources
 Enabled: yes
 Types: deb deb-src
 URIs: https://ppa.launchpadcontent.net/pikaos/multimedia/ubuntu
-Suites: kinetic
+Suites: lunar
 Components: main
-Signed-By: /usr/share/keyrings/pika-keyring.gpg.key
+Signed-By: /etc/apt/keyrings/pika-keyring.gpg.key

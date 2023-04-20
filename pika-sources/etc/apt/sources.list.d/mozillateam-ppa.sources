@@ -2,6 +2,6 @@ X-Repolib-Name: Official Mozilla Sources
 Enabled: yes
 Types: deb deb-src
 URIs: https://ppa.launchpadcontent.net/mozillateam/ppa/ubuntu
-Suites: kinetic
+Suites: lunar
 Components: main
-Signed-By: /usr/share/keyrings/mozillateam-ubuntu-ppa.gpg.key
+Signed-By: /etc/apt/keyrings/mozillateam-ubuntu-ppa.gpg.key
