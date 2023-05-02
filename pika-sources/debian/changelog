@@ -1,3 +1,9 @@
+pika-sources (4.1-99pika6-kinetic) kinetic; urgency=low
+
+  *  Add dep repos
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 pika-sources (4.1-99pika5) kinetic; urgency=low
 
   *  Update AMD repos
