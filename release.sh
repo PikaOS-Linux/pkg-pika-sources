@@ -17,3 +17,5 @@ cp -vf ./output/pika-sources*.deb  ./output/repo/dists/lunar/pika-sources.deb
 
 # Push the updated ppa repo to the server
 rsync -azP ./output/repo/ ferreo@direct.pika-os.com:/srv/www/pikappa/
+
+rsync ./output/repo/dists/lunar/pika-sources.deb ferreo@direct.pika-os.com:/srv/www/pikappa/dists/lunar/
