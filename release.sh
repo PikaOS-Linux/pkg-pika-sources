@@ -10,5 +10,9 @@ reprepro -V --basedir ./output/repo/ removefilter lunar 'Package (% pika-sources
 # Add the new package to the repo
 reprepro -V --basedir ./output/repo/ includedeb lunar ./output/pika-sources*.deb
 
+# Put pika-sources deb in repo full wget pulls
+mkdir -p ./output/repo/dists/lunar/
+cp -vf ./output/pika-sources*.deb  ./output/repo/dists/lunar/pika-sources.deb 
+
 # Push the updated ppa repo to the server
 rsync -azP ./output/repo/ ferreo@direct.pika-os.com:/srv/www/pikappa/
