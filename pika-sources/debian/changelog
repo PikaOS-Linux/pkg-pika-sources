@@ -1,4 +1,4 @@
-pika-sources (5.1-99pika4-lunar) lunar; urgency=low
+pika-sources (5.1-99pika5-lunar) lunar; urgency=low
 
   *  remove ppa-deps
 
