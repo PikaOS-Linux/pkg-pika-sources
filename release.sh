@@ -11,6 +11,7 @@ reprepro -V --basedir ./output/repo/ removefilter lunar 'Package (% pika-sources
 reprepro -V --basedir ./output/repo/ includedeb lunar ./output/pika-sources*.deb
 
 # Put pika-sources deb in repo full wget pulls
+rm -rfv ./output/repo/dists/lunar/pika-sources.deb || true
 mkdir -p ./output/repo/dists/lunar/
 cp -vf ./output/pika-sources*.deb  ./output/repo/dists/lunar/pika-sources.deb 
 
