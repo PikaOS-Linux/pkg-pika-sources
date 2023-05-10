@@ -2,6 +2,6 @@ X-Repolib-Name: Wireplumer Upstream Sources
 Enabled: yes
 Types: deb deb-src
 URIs: https://ppa.launchpadcontent.net/pipewire-debian/wireplumber-upstream/ubuntu
-Suites: devel
+Suites: lunar
 Components: main
 Signed-By: /etc/apt/keyrings/pipewire-debian.gpg
