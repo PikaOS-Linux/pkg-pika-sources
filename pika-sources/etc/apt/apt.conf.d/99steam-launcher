@@ -1,0 +1,2 @@
+DPkg::Pre-Install-Pkgs {"/usr/share/dpkg/scripts/steam-launcher.sh pre";};
+DPkg::Post-Invoke {"/usr/share/dpkg/scripts/steam-launcher.sh post";};

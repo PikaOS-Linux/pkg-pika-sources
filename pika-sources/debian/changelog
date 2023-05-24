@@ -1,6 +1,6 @@
-pika-sources (5.1-99pika7-lunar) lunar; urgency=low
+pika-sources (5.1-99pika8-lunar) lunar; urgency=low
 
-  *  remove pipewire ppa
+  *  add steam hook
 
  -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
 
