@@ -1,7 +1,7 @@
 X-Repolib-Name: Official ROCm Sources
 Enabled: yes
 Types: deb
-URIs: https://repo.radeon.com/rocm/apt/5.5.1
+URIs: https://repo.radeon.com/rocm/apt/5.6
 Suites: jammy
 Components: main
 Architectures: amd64
