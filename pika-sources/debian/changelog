@@ -1,3 +1,9 @@
+pika-sources (5.3-99pika2-lunar) lunar; urgency=low
+
+  *  AMD bad at versioning stuff
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 pika-sources (5.3-99pika1-lunar) lunar; urgency=low
 
   *  Update AMD repos
