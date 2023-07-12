@@ -1,7 +1,0 @@
-X-Repolib-Name: XtraDeb Apps PPA
-Enabled: yes
-Types: deb deb-src
-URIs: https://ppa.launchpadcontent.net/xtradeb/apps/ubuntu
-Suites: lunar
-Components: main
-Signed-By: /etc/apt/keyrings/xtradeb-ubuntu-apps.gpg.key
