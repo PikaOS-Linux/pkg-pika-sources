@@ -1,7 +1,0 @@
-X-Repolib-Name: Kisak Fresh Mesa (Graphics Drivers)
-Enabled: yes
-Types: deb deb-src
-URIs: http://ppa.launchpad.net/kisak/kisak-mesa/ubuntu
-Suites: lunar
-Components: main
-Signed-By: /etc/apt/keyrings/kisak-mesa.gpg.key
