@@ -18,6 +18,7 @@ then
 		rm -rf /etc/apt/sources.list.d/steam-stable.list || echo 'no stable steam repos'
 		rm -rf /etc/apt/sources.list.d/steam.list || echo 'no steam repos'
 		rm -rf /var/lib/apt/hooks/steam-launcher
+		cp -rfv /usr/share/dpkg/scripts/steamdeps /usr/bin/
 	else
 		exit 0
 	fi
