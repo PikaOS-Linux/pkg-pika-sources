@@ -17,5 +17,9 @@ import shutil
 import subprocess
 import sys
 
-
-subprocess.run(["/usr/bin/x-terminal-emulator -e bash -c 'sudo apt install -y libc6:amd64 libc6:i386'"], shell=True)
+check_output = subprocess.run(["dpkg -s libc6:amd64 && dpkg -s libc6:i386"], shell=True)
+if (check_output.returncode) != 0:
+    subprocess.run(["/usr/bin/x-terminal-emulator -e bash -c 'sudo apt install -y libc6:amd64 libc6:i386'"], shell=True)
+    exit(0)
+else
+    exit(0)

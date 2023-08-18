@@ -1,0 +1,4 @@
+# Firefox Priority Override
+Package: *
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 501

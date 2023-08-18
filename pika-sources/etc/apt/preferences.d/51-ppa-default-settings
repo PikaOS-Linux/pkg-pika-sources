@@ -1,4 +1,0 @@
-# Make PPAs have the highest-priority above all
-Package: *
-Pin: release o=LP-PPA-*
-Pin-Priority: 2000

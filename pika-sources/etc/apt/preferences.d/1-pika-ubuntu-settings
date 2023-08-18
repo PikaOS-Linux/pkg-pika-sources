@@ -1,0 +1,14 @@
+# Lower Ubuntu's priority under pika's
+Package: *
+Pin: release o=Ubuntu
+Pin-Priority: 400
+
+# Enable Ubuntu's Feature Updates
+Package: *
+Pin: release a=$(lsb_release -cs)-backports
+Pin-Priority: 400
+
+Package: *
+Pin: release a=$(lsb_release -cs)-proposed
+Pin-Priority: 400
+
