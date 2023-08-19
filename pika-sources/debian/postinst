@@ -4,7 +4,7 @@ set -e
 
 rm -f /etc/apt/sources.list.d/amdgpu.sources || true
 rm -f /etc/apt/sources.list.d/amdvlk.sources || true
-rm -f /etc/apt/sources.list.d/extradeb-apps.sources || true
+rm -f /etc/apt/sources.list.d/xtradeb-apps.sources || true
 rm -f /etc/apt/sources.list.d/kubuntu-backports.sources || true
 rm -f /etc/apt/sources.list.d/mozillateam-ppa.sources || true
 rm -f /etc/apt/sources.list.d/rocm.sources || true
