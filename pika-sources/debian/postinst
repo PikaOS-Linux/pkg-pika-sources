@@ -2,6 +2,19 @@
 
 set -e
 
+rm -f /etc/apt/sources.list.d/amdgpu.sources || true
+rm -f /etc/apt/sources.list.d/amdvlk.sources || true
+rm -f /etc/apt/sources.list.d/extradeb-apps.sources || true
+rm -f /etc/apt/sources.list.d/kubuntu-backports.sources || true
+rm -f /etc/apt/sources.list.d/mozillateam-ppa.sources || true
+rm -f /etc/apt/sources.list.d/rocm.sources || true
+rm -f /etc/apt/sources.list.d/steam.sources || true
+rm -f /etc/apt/sources.list.d/winehq.sources || true
+rm -f /etc/apt/sources.list.d/xtradeb-play.sources || true
+rm -f /etc/apt/preferences.d/0-pika-default-settings || true
+rm -f /etc/apt/preferences.d/51-ppa-default-settings || true
+rm -f /etc/apt/preferences.d/0-radeon-repo-settings || true
+
 systemctl enable --now steam-repos-fix.service || echo "steam-repos-fix service could not be enabled"
 
 mkdir -p /usr/share || echo "Path already exists!"
