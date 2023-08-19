@@ -14,6 +14,7 @@ rm -f /etc/apt/sources.list.d/xtradeb-play.sources || true
 rm -f /etc/apt/preferences.d/0-pika-default-settings || true
 rm -f /etc/apt/preferences.d/51-ppa-default-settings || true
 rm -f /etc/apt/preferences.d/0-radeon-repo-settings || true
+rm -f /etc/apt/sources.list.d/kisak-mesa.sources || true
 
 systemctl enable --now steam-repos-fix.service || echo "steam-repos-fix service could not be enabled"
 
