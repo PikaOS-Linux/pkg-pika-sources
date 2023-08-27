@@ -1,3 +1,9 @@
+pika-sources (6.0-99pika1-lunar) lunar; urgency=low
+
+  *  Switch to internal repos
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 pika-sources (5.11-99pika1-lunar) lunar; urgency=low
 
   *  Fully purge kisak
