@@ -3,5 +3,5 @@ Enabled: yes
 Types: deb deb-src
 URIs: https://ppa.pika-os.com/
 Suites: lunar
-Components: main
+Components: main amdgpu rocm external
 Signed-By: /etc/apt/keyrings/pika-keyring.gpg.key

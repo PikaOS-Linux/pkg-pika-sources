@@ -3,3 +3,4 @@
 set -e
 
 rm -rf /etc/apt/sources.list.d/pika-*.source || true
+rm -rf /etc/apt/preferences.d/*pika* || true

@@ -1,7 +1,0 @@
-X-Repolib-Name: PikaOS Launchpad Sources
-Enabled: yes
-Types: deb deb-src
-URIs: https://ppa.launchpadcontent.net/pikaos/pika/ubuntu
-Suites: lunar
-Components: main
-Signed-By: /etc/apt/keyrings/pika-ppa-keyring.gpg.key

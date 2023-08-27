@@ -1,7 +1,0 @@
-X-Repolib-Name: Official AMDVLK Sources
-Enabled: yes
-Types: deb
-URIs: https://repo.radeon.com/amdvlk/apt/debian
-Suites: bionic
-Components: main
-Signed-By: /etc/apt/keyrings/amdvlk.gpg.key
