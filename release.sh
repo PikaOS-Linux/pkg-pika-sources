@@ -5,10 +5,10 @@ dpkg-sig --sign builder ./output/pika-sources*.deb
 rsync -azP --exclude '*.deb' ferreo@direct.pika-os.com:/srv/www/pikappa/ ./output/repo
 
 # Remove our existing package from the repo
-reprepro -V --basedir ./output/repo/ removefilter lunar 'Package (% pika-sources*)'
+reprepro -C main -V --basedir ./output/repo/ removefilter lunar 'Package (% pika-sources*)'
 
 # Add the new package to the repo
-reprepro -V --basedir ./output/repo/ includedeb lunar ./output/pika-sources*.deb
+reprepro -C main -V --basedir ./output/repo/ includedeb lunar ./output/pika-sources*.deb
 
 # Put pika-sources deb in repo full wget pulls
 rm -rfv ./output/repo/dists/lunar/pika-sources.deb || true
