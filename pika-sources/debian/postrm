@@ -1,6 +1,0 @@
-#!/bin/sh
-
-set -e
-
-rm -rf /etc/apt/sources.list.d/pika-* || true
-rm -rf /etc/apt/preferences.d/*pika* || true

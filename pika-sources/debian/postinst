@@ -2,6 +2,9 @@
 
 set -e
 
+rm -rf /etc/apt/sources.list.d/pika-* || true
+rm -rf /etc/apt/preferences.d/*pika* || true
+
 rm -f /etc/apt/sources.list.d/amdgpu.sources || true
 rm -f /etc/apt/sources.list.d/amdvlk.sources || true
 rm -f /etc/apt/sources.list.d/xtradeb-apps.sources || true
@@ -15,6 +18,8 @@ rm -f /etc/apt/preferences.d/0-pika-default-settings || true
 rm -f /etc/apt/preferences.d/51-ppa-default-settings || true
 rm -f /etc/apt/preferences.d/0-radeon-repo-settings || true
 rm -f /etc/apt/sources.list.d/kisak-mesa.sources || true
+
+cp -rf /usr/share/apt-pika/apt /etc/ || true
 
 systemctl enable --now steam-repos-fix.service || echo "steam-repos-fix service could not be enabled"
 
