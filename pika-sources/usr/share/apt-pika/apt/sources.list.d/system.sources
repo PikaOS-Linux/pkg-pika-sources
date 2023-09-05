@@ -1,8 +1,9 @@
-X-Repolib-Name: Ubuntu System Sources
+X-Repolib-Name: PikaOS System Sources
 Enabled: yes
 Types: deb deb-src
-URIs: http://archive.ubuntu.com/ubuntu/
-Suites: lunar lunar-security lunar-updates lunar-backports lunar-proposed
-Components: main restricted universe multiverse
+URIs: https://ppa.pika-os.com/
+Suites: lunar
+Components: main amdgpu rocm external ubuntu
 X-Repolib-ID: system
-X-Repolib-Default-Mirror: http://archive.ubuntu.com/ubuntu/
+X-Repolib-Default-Mirror: https://ppa.pika-os.com/
+Signed-By: /etc/apt/keyrings/pika-keyring.gpg.key
