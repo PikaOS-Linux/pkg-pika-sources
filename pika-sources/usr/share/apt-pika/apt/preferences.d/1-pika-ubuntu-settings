@@ -1,5 +1,5 @@
 # Lower Ubuntu's priority under pika's
 Package: *
-Pin: release o=ppa.pika-os.com,c=ubuntu
+Pin: release c=ubuntu
 Pin-Priority: 400
 
