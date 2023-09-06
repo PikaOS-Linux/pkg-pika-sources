@@ -1,6 +1,6 @@
 X-Repolib-Name: PikaOS System Sources
 Enabled: yes
-Types: deb deb-src
+Types: deb
 URIs: https://ppa.pika-os.com/
 Suites: lunar
 Components: main amdgpu rocm external ubuntu
