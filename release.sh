@@ -8,4 +8,4 @@ ssh ferreo@direct.pika-os.com 'aptly repo add -force-replace -remove-files pika-
 ssh ferreo@direct.pika-os.com 'aptly publish update -batch -skip-contents -force-overwrite lunar filesystem:pikarepo:'
 
 cp -vf ./output/pika-sources*.deb  ./output/pika-sources.deb 
-rsync ./output/repo/dists/lunar/pika-sources.deb ferreo@direct.pika-os.com:/srv/www/pikarepo/dists/lunar/
+rsync ./output/pika-sources.deb ferreo@direct.pika-os.com:/srv/www/pikarepo/dists/lunar/
