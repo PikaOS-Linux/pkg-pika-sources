@@ -1,3 +1,9 @@
+pika-sources (6.3-99pika1-lunar) lunar; urgency=low
+
+  *  fix pins
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 pika-sources (6.2-99pika1-lunar) lunar; urgency=low
 
   *  no deb-src in our repos
