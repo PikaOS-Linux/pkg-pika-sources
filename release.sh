@@ -1,21 +1,11 @@
-# Sign the packages
-dpkg-sig --sign builder ./output/pika-sources*.deb
+# send debs to server
+rsync -azP --include './' --include '*.deb' --exclude '*' ./output/ ferreo@direct.pika-os.com:/srv/www/incoming/
 
-# Pull down existing ppa repo db files etc
-rsync -azP --exclude '*.deb' ferreo@direct.pika-os.com:/srv/www/pikappa/ ./output/repo
+# add debs to repo
+ssh ferreo@direct.pika-os.com 'aptly repo add -force-replace -remove-files pika-main /srv/www/incoming/'
 
-# Remove our existing package from the repo
-reprepro -C main -V --basedir ./output/repo/ removefilter lunar 'Package (% pika-sources*)'
+# publish the repo
+ssh ferreo@direct.pika-os.com 'aptly publish update -batch -skip-contents -force-overwrite lunar filesystem:pikarepo:'
 
-# Add the new package to the repo
-reprepro -C main -V --basedir ./output/repo/ includedeb lunar ./output/pika-sources*.deb
-
-# Put pika-sources deb in repo full wget pulls
-rm -rfv ./output/repo/dists/lunar/pika-sources.deb || true
-mkdir -p ./output/repo/dists/lunar/
-cp -vf ./output/pika-sources*.deb  ./output/repo/dists/lunar/pika-sources.deb 
-
-# Push the updated ppa repo to the server
-rsync -azP ./output/repo/ ferreo@direct.pika-os.com:/srv/www/pikappa/
-
-rsync ./output/repo/dists/lunar/pika-sources.deb ferreo@direct.pika-os.com:/srv/www/pikappa/dists/lunar/
+cp -vf ./output/pika-sources*.deb  ./output/pika-sources.deb 
+rsync ./output/repo/dists/lunar/pika-sources.deb ferreo@direct.pika-os.com:/srv/www/pikarepo/dists/lunar/
