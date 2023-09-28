@@ -2,7 +2,7 @@ X-Repolib-Name: PikaOS System Sources
 Enabled: yes
 Types: deb
 URIs: https://ppa.pika-os.com/
-Suites: lunar
+Suites: mantic
 Components: main amdgpu rocm external ubuntu
 X-Repolib-ID: system
 X-Repolib-Default-Mirror: https://ppa.pika-os.com/
