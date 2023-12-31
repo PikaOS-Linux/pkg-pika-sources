@@ -3,12 +3,16 @@ Pin: release c=Ubuntu
 Pin-Priority: 100
 
 Package: hipcc*
-Pin: release c=Ubuntu
+Pin: release c=ubuntu
 Pin-Priority: 100
 
 Package: rocm*
-Pin: release c=Ubuntu
+Pin: release c=ubuntu
 Pin-Priority: 100
+
+Package: *
+Pin: release c=rocm
+Pin-Priority: 450
 
 Package: amdgpu-core amdgpu-pro-core amdgpu-dkms amdgpu-pro-lib32
 Pin: release a=*
