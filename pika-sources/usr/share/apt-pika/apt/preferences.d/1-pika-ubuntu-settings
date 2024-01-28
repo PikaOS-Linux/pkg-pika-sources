@@ -3,8 +3,8 @@ Package: *
 Pin: release c=ubuntu
 Pin-Priority: 400
 
-# Lower External's priority same as Ubuntu's
-Package: *
+# Lower External's priority same as Ubuntu's for nvidia
+Package: *nvidia*
 Pin: release c=external
 Pin-Priority: 400
 
