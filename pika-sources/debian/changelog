@@ -1,3 +1,9 @@
+pika-sources (6.8-100pika7) pikauwu; urgency=low
+
+  *  Fix rocm mesa issues
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 pika-sources (6.8-100pika6) pikauwu; urgency=low
 
   *  Fix rocm mesa issues
