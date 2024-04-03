@@ -14,7 +14,7 @@ Package: *
 Pin: release c=rocm
 Pin-Priority: 450
  
-Package: libglvnd0 libegl1 libegl-dev libglx0 libglx-dev libgl1 libgl-dev libglvnd-core-dev libgles1 libgles2 libgles-dev libglvnd-dev libopengl0 libopengl-dev libxatracker2 libgbm1
+Package: libglvnd0 libegl1 libegl-dev libglx0 libglx-dev libgl1 libgl-dev libglvnd-core-dev libgles1 libgles2 libgles-dev libglvnd-dev libopengl0 libopengl-dev libxatracker2 libgbm1 libgbm-dev
 Pin: release c=rocm
 Pin-Priority: -5
 
