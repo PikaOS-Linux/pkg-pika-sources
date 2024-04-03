@@ -18,6 +18,10 @@ Package: libglvnd0 libegl1 libegl-dev libglx0 libglx-dev libgl1 libgl-dev libglv
 Pin: release c=rocm
 Pin-Priority: -5
 
+Package: *mesa*
+Pin: release c=rocm
+Pin-Priority: -5
+
 Package: amdgpu-core amdgpu-pro-core amdgpu-dkms amdgpu-pro-lib32
 Pin: release a=*
 Pin-Priority: -10
