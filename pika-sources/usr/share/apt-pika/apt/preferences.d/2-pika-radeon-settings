@@ -13,6 +13,10 @@ Pin-Priority: 100
 Package: *
 Pin: release c=rocm
 Pin-Priority: 450
+ 
+Package: libglvnd0 libegl1 libegl-dev libglx0 libglx-dev libgl1 libgl-dev libglvnd-core-dev libgles1 libgles2 libgles-dev libglvnd-dev libopengl0 libopengl-dev
+Pin: release c=rocm
+Pin-Priority: -5
 
 Package: amdgpu-core amdgpu-pro-core amdgpu-dkms amdgpu-pro-lib32
 Pin: release a=*
