@@ -1,0 +1,5 @@
+# Lower nest's priority under cockatiel's
+Package: *
+Pin: release a=pika,c=nest
+Pin-Priority: 450
+

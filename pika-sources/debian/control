@@ -10,8 +10,8 @@ Package: pika-sources
 Section: misc
 Architecture: all
 Pre-Depends: python-apt-common, distro-info-data
-Depends: ${misc:Depends}, ubuntu-keyring
-Description: APT Source files and keyrings for the repositories we use/provide.
+Depends: ${misc:Depends}
+Description: APT Source files and keyrings for the PikaOS Repositories
 
 
 
