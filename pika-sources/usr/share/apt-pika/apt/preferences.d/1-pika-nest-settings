@@ -3,3 +3,24 @@ Package: *
 Pin: release a=pika,c=nest
 Pin-Priority: 450
 
+# Lower raven's priority under cockatiel's
+Package: *
+Pin: release a=pika,c=raven
+Pin-Priority: 450
+
+# Lower pigeon's priority under cockatiel's
+Package: *
+Pin: release a=pika,c=pigeon
+Pin-Priority: 450
+
+
+# Lower parrot's priority under cockatiel's
+Package: *
+Pin: release a=pika,c=parrot
+Pin-Priority: 450
+
+# Put canary's priority over nest and under cockatiel's
+Package: *
+Pin: release a=pika,c=canary
+Pin-Priority: 451
+

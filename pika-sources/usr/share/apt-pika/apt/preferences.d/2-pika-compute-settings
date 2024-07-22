@@ -2,20 +2,10 @@
 Package: libhsa-runtime64* hipcc* rocm*
 Pin: release a=pika,c=nest
 Pin-Priority: 100
-
-# Lower raven's priority under cockatiel's
-Package: *
-Pin: release a=pika,c=raven
-Pin-Priority: 450
-
-# Lower pigeon's priority under cockatiel's
-Package: *
-Pin: release a=pika,c=pigeon
-Pin-Priority: 450
  
 # Blacklist intel mesa from raven
 Package: libglvnd0 libegl1 libegl-dev libglx0 libglx-dev libgl1 libgl-dev libglvnd-core-dev libgles1 libgles2 libgles-dev libglvnd-dev libopengl0 libopengl-dev libxatracker2 libgbm1 libgbm-dev *mesa*
-Pin: a=pika,c=raven
+Pin: release a=pika,c=raven
 Pin-Priority: -10
 
 # Blacklist dangerous amdgpu-pro packages
