@@ -1,3 +1,9 @@
+pika-sources (7.2-101pika1) canary; urgency=low
+
+  *  Fix pre depends
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 pika-sources (7.1-101pika1) canary; urgency=low
 
   *  Canary options

@@ -18,7 +18,7 @@ cd ./pika-sources
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p pika-sources_7.1 || echo "dh-make didn't go clean"
+LOGNAME=root dh_make --createorig -y -l -p pika-sources_7.2 || echo "dh-make didn't go clean"
 dpkg-buildpackage --no-sign
 
 # Move the debs to output
